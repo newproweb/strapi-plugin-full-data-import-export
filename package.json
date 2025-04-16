@@ -1,0 +1,34 @@
+{
+  "name": "strapi-plugin-full-data-import-export",
+  "version": "1.0.0",
+  "description": "The data-import feature of Strapi, but from admin panel directly",
+  "strapi": {
+    "name": "full-data-import-export",
+    "displayName": "Full Data Import Export",
+    "description": "The data-import feature of Strapi, but from admin panel directly",
+    "kind": "plugin"
+  },
+  "author": {
+    "name": "NewProWeb<Abror Abdullaev>",
+    "email": "abror.abdullaev@newproweb.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newproweb/strapi-plugin-full-data-import-export.git"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0",
+    "react-dropzone": "^14.3.8"
+  },
+  "maintainers": [
+    {
+      "name": "NewProWeb",
+      "email": "abror.abdullaev@newproweb.com"
+    }
+  ],
+  "engines": {
+    "node": ">=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

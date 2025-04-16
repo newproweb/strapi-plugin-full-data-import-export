@@ -1,0 +1,2 @@
+server/data/*.tar.gz
+server/data/*.lock
