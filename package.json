@@ -16,9 +16,11 @@
     "type": "git",
     "url": "https://github.com/newproweb/strapi-plugin-full-data-import-export.git"
   },
-  "peerDependencies": {
-    "@strapi/strapi": "^4.0.0",
+  "dependencies": {
     "react-dropzone": "^14.3.8"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
   },
   "maintainers": [
     {
