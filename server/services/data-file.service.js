@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const { exec } = require("child_process");
-const { bytesToSize } = require("../utils/size.utils");
+const sizeUtils = require("../utils/size.utils");
 
 module.exports = ({ strapi }) => {
   const dataFolderPath = __dirname + "/../data";
@@ -25,7 +25,7 @@ module.exports = ({ strapi }) => {
       const fileMeta = fs.statSync(file);
       return {
         name: fileName + ".tar.gz",
-        size: bytesToSize(fileMeta.size),
+        size: sizeUtils.bytesToSize(fileMeta.size),
         updated_at: fileMeta.mtime,
       };
     },
