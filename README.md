@@ -34,11 +34,11 @@ To install the Strapi Import/Export plugin, follow these steps:
 In the root of your Strapi project, run the following command:
 
 ```bash
-npm install strapi-import-export
+npm install strapi-plugin-full-data-import-export
 ```
 
 Or, if you’re using Yarn:
 
 ```bash
-yarn add strapi-import-export
+yarn add strapi-plugin-full-data-import-export
 ```
