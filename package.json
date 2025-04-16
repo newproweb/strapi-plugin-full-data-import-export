@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-full-data-import-export",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "The data-import feature of Strapi, but from admin panel directly",
   "strapi": {
     "name": "full-data-import-export",
